@@ -11,9 +11,9 @@
 int pinlnterrupt=2;
 void onChange()
  {
-     if ( digitalRead(pinInterrupt) == LOW )
+     if(digitalRead(pinInterrupt) == LOW )
      { i=0;}
-     else if（digitalRead(pinlnterrupt)==HIGH）
+     else if(digitalRead(pinInterrupt)==HIGH)
      {i=i;}
  }
    
